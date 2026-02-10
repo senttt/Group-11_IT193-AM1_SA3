@@ -2,9 +2,13 @@ Dog Adoption & Vet Management App (Group Work)
 November, 2021 
 
 GitHub: https://github.com/senttt/Group-11_IT193-AM1_SA3 
+
 Backend: Java (Spring Boot) 
+
 Frontend: Android Studio (Java/XML) 
+
 Database: H2 / MySQL Server / Hosting: Localhost
+
 
 Description: A mobile app created to help people adopt dogs and manage vet records. It connects potential pet owners with a system that tracks user profiles and pet information.
 
