@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDog">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@color/btn_back"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:hint="@string/add_entry"
+        android:textSize="@dimen/desc_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/add_photo"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/add_dog_name"
+        android:layout_marginTop="32dp"
+        android:hint="@string/photonum_hint"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/add_desc" />
+
+    <EditText
+        android:id="@+id/add_desc"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/add_dog_name"
+        android:layout_marginTop="32dp"
+        android:hint="@string/dog_desc"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/add_date" />
+
+    <EditText
+        android:id="@+id/add_gender"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/add_dog_name"
+        android:layout_marginTop="32dp"
+        android:hint="@string/dog_gender_hint"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/add_breed" />
+
+    <EditText
+        android:id="@+id/add_dog_name"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="64dp"
+        android:hint="@string/dog_name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="107dp"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:text="@string/dog_name"
+        android:textSize="@dimen/dog_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/add_dog_name" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="107dp"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:text="@string/dog_desc"
+        android:textSize="@dimen/dog_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/add_desc" />
+
+    <EditText
+        android:id="@+id/add_date"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/add_dog_name"
+        android:layout_marginTop="32dp"
+        android:hint="@string/dog_birth"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/add_age" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="107dp"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:text="@string/dog_age"
+        android:textSize="@dimen/dog_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/add_age" />
+
+    <EditText
+        android:id="@+id/add_breed"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/add_dog_name"
+        android:layout_marginTop="32dp"
+        android:hint="@string/dog_breed"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/add_dog_name" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="107dp"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:text="@string/dog_gender"
+        android:textSize="@dimen/dog_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/add_gender" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="107dp"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:text="@string/dog_breed"
+        android:textSize="@dimen/dog_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/add_breed" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="107dp"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:text="@string/dog_birth"
+        android:textSize="@dimen/dog_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/add_date" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="107dp"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:text="@string/photonum"
+        android:textSize="@dimen/dog_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/add_photo" />
+
+    <EditText
+        android:id="@+id/add_age"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/add_dog_name"
+        android:layout_marginTop="32dp"
+        android:hint="@string/dog_age_hint"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/add_gender" />
+
+    <Button
+        android:id="@+id/form_buttonAdd"
+        android:layout_width="261dp"
+        android:layout_height="46dp"
+        android:layout_below="@id/add_breed"
+        android:backgroundTint="@color/btn_back"
+        android:text="@string/btn_add_entry"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

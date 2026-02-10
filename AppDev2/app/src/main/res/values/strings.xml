@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">AppDev</string>
+    <string name="title_activity_row_item">activity_row_item</string>
+    <string name="title_activity_list_row_item">list_row_item</string>
+
+    <string name="title_desc">Lost dogs with no place to go, after treatment you can bring them home!</string>
+    <string name="title_page">Vet\'s Veterinary</string>
+    <string name="dog_info">Dog Info</string>
+    <string name="add_entry">Add Dog Entry</string>
+    <string name="adopt_list">Adoption Listing</string>
+
+    <string name="dog_name">Dog Name:</string>
+    <string name="dog_breed">Dog Breed:</string>
+    <string name="dog_gender">Sex:</string>
+    <string name="dog_gender_hint">Male or Female:</string>
+    <string name="dog_age">Age:</string>
+    <string name="dog_age_hint">Age in Months:</string>
+    <string name="dog_birth">Birthdate:</string>
+    <string name="photonum">Photo ID:</string>
+    <string name="photonum_hint">Photo ID number:</string>
+    <string name="dog_desc">Description:</string>
+
+    <string name="user_hint">Username</string>
+    <string name="pass_hint">Password</string>
+    <string name="login_helper">Enter your login information.</string>
+    <string name="invalid_cred">Invalid Username or Password</string>
+
+    <string name="btn_add">Add a Dog</string>
+    <string name="btn_add_entry">Add Entry for Adoption</string>
+    <string name="btn_adopt">Adopt!</string>
+    <string name="btn_adopt_view"></string>
+    <string name="btn_edit">Update Content</string>
+    <string name="btn_remove">Remove Entry</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_clear">Clear Input</string>
+    <string name="btn_back">Go back</string>
+    <string name="btn_logout">Logout</string>
+</resources>
