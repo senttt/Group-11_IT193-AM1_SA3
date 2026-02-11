@@ -21,3 +21,7 @@ My Contributions: In this project, I built the "brain" of the app (the backend) 
 -Created the Data Logic that automatically organizes and saves user information so nothing gets lost.
 
 -Managed the Database Connection using Spring Boot to ensure the app stores data reliably.
+
+### PREVIEW
+
+![Images](screenshot.jpg)
